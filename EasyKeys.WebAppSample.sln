@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EasyKeys.Web", "src\EasyKey
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EasyKeys.Web.Tests", "src\EasyKeys.Web.Tests\EasyKeys.Web.Tests.vbproj", "{2074C309-BC2D-4B6D-A184-B7CDDB8D4B6D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EK.Data.Caching", "src\EK.Data.Caching\EK.Data.Caching.csproj", "{F4B25032-B605-4181-B54D-20E42A1F02F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2074C309-BC2D-4B6D-A184-B7CDDB8D4B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2074C309-BC2D-4B6D-A184-B7CDDB8D4B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2074C309-BC2D-4B6D-A184-B7CDDB8D4B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B25032-B605-4181-B54D-20E42A1F02F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B25032-B605-4181-B54D-20E42A1F02F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B25032-B605-4181-B54D-20E42A1F02F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B25032-B605-4181-B54D-20E42A1F02F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
