@@ -220,6 +220,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EmailLogDisplay.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -370,6 +371,9 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.vb">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmailLogDisplay.aspx.designer.vb">
+      <DependentUpon>EmailLogDisplay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Lib\Audit.vb" />
     <Compile Include="Lib\AuditEvent.vb" />
